@@ -53,7 +53,7 @@ rgb_re = re.compile("^.*?rgb[(]([0-9]+).*?([0-9]+).*?([0-9]+)[)].*?[ ]*$")
 
 if not (reportlab.Version[:3]>="2.1"):
 
-raise ImportError("Reportlab Version 2.1+ is needed!")
+    raise ImportError("Reportlab Version 2.1+ is needed!")
 
 REPORTLAB22 = (reportlab.Version[:3]>="2.1")
 # print "***", reportlab.Version, REPORTLAB22, reportlab.__file__
