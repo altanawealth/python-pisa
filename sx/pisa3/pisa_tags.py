@@ -22,7 +22,7 @@ from pisa_default import DEFAULT_CSS
 from pisa_reportlab import *
 from pisa_util import *
 
-from reportlab.graphics.barcode.code39 import Standard39
+from reportlab.graphics.barcode import createBarcodeDrawing
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus.flowables import *
 from reportlab.platypus.paraparser import tt2ps, ABag
